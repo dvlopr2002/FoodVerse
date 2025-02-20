@@ -65,9 +65,10 @@ FoodVerse is a modern food ordering website built with **React.js, Redux Toolkit
 
 ## 📸 Screenshots
 
-![Homepage](![Screenshot 2025-02-20 121243](https://github.com/user-attachments/assets/99a951bf-db4e-48b5-bf85-470ec9aad5ea))
-![Restaurant Page](screenshots/restaurant-page.png)
-![Cart Page](screenshots/cart-page.png)
+![Homepage/Restaurant Page](![Screenshot 2025-02-20 121243](https://github.com/user-attachments/assets/99a951bf-db4e-48b5-bf85-470ec9aad5ea))
+![Menu Page](![Screenshot 2025-02-20 121352](https://github.com/user-attachments/assets/259b5d4e-c7d7-417d-bbab-e68c8052d175))
+![Cart Page](![Screenshot 2025-02-20 121515](https://github.com/user-attachments/assets/ba131dd0-b2c9-4d95-9a01-213b6abec74d)
+)
 
 ---
 
