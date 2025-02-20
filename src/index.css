@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+
+@theme {
+    /* fonts */
+    --breakpoint-exsm: 400px;
+    --font-Gilroy-Regular: "Gilroy-Regular", serif;
+    --font-Gilroy-Medium: "Gilroy-Medium", serif;
+    --font-Gilroy-SemiBold: "Gilroy-SemiBold", serif;
+    --font-Gilroy-Bold: "Gilroy-Bold", serif;
+    --font-Bebas-Neue: "Bebas Neue", serif;
+    --font-Poppins: "Poppins", serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.image-overlay {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1));
+}
+
+.menu-wrapper-box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.my-image {
+    -webkit-box-shadow: 0px 1px 5px 19px rgba(232, 244, 255, 0.53);
+    -moz-box-shadow: 0px 1px 5px 19px rgba(232, 244, 255, 0.53);
+    box-shadow: 0px 1px 5px 19px rgba(232, 244, 255, 0.53);
+}
+
+
+/* form-wrapper */
+.contact-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.contact-heading {
+    position: relative;
+}
+
+.contact-heading::after {
+    content: "";
+    height: 4px;
+    width: 15%;
+    background-color: rgba(245, 195, 29, 0.845);
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.grocery-img-shadow {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+@media screen and (max-width:380px) {
+    .contact-image-wrapper {
+        display: none;
+    }
+
+    .contact-info-wrapper {
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+}
+
+
+
+@media screen and (max-width:350px) {
+    .loginuser {
+        display: none;
+    }
+}
